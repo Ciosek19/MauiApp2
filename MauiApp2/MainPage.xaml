@@ -42,6 +42,18 @@
                 SemanticProperties.Hint="Videito pal insta"
                 Clicked="OnVideoBtnClicked"
                 HorizontalOptions="Fill" />
+            <Button
+                x:Name="HuellaBtn"
+                Text="Autenticate rastrillo" 
+                SemanticProperties.Hint="Autenticate"
+                Clicked="OnHuellaBtnClicked"
+                HorizontalOptions="Fill" />
+            <Button
+                x:Name="UbicacionBtn"
+                Text="Te tiro la ubi" 
+                SemanticProperties.Hint="Autenticate"
+                Clicked="OnUbicacionBtnClicked"
+                HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 
